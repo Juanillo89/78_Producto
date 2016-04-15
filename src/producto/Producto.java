@@ -23,11 +23,11 @@ public class Producto
 				descripcion = sc.nextLine();
 				if(hashMap.put(codigo, descripcion) == null)
 				{
-					System.out.println("Producto introducido");
+					System.out.println("Producto introducido.");
 				}
 				else
 				{
-					System.out.println("Descripcion actualizada:");
+					System.out.println("Descripcion actualizada.");
 				}
 			}	
 		}
